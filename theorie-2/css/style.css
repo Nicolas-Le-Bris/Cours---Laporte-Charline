@@ -1,0 +1,21 @@
+.myBody {
+    background-color: grey;
+}
+
+.myPara {
+    color: white;
+    text-decoration: underline;
+}
+
+.green {
+    color: green;
+}
+
+
+#myFirstDiv {
+    border: solid 2px black;
+}
+
+#mySecondDiv {
+    border: dotted 10px white;
+}

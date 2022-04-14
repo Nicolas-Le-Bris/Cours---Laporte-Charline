@@ -1,0 +1,56 @@
+.desktop-only {
+    opacity: 1;
+    display: none;
+    background-color: bisque;
+}
+
+.mobile-only {
+    opacity: 1;
+    display: none;
+    background-color: teal;
+}
+
+body {
+    background-color: tomato;
+}
+
+@media screen and (max-width: 450px) {
+    
+    body {
+        background-color: black;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    
+    body {
+        background-color: purple;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    
+    body {
+        border: solid 2px black;
+    }
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+}

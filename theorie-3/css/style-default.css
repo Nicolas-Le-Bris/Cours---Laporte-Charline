@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+}
+
+.myDiv {
+    background-color: tomato;
+    display: block;
+    height: 500px;
+}
+
+.myPara {
+    background-color: yellow;
+    display: inline;
+}
+
+.mySpan {
+    background-color: black;
+    color: white;
+    display: inline;
+    height: 200px;
+}
+
+.myPicture {
+    border: solid 20px purple;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}

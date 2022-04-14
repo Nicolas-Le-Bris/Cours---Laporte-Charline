@@ -1,0 +1,17 @@
+.myParent {
+    border: solid 2px black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.myPara {
+    background-color: yellow;
+    width: 300px;
+}
+
+.myPicture {
+    width: 200px;
+}

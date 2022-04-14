@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    background-color: paleturquoise;
+    width: 100%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: solid 2px black;
+    margin-right: 20px;
+    
+}
+
+.move {
+    background-color: aquamarine;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
